@@ -72,7 +72,7 @@ python src/finetune.py --exp-name vb16-CIFAR100-attn25-1-0-6 \
 |:------------|:---------|:-------------|--------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | imagenet21k | ViT-B_16 | imagenet2012 |     83.90     | [checkpoint](https://drive.google.com/file/d/1gEcyb4HUDzIvu7lQWTOyDC1X00YzCxFx/view?usp=sharing) |
 | imagenet21k | ViT-B_32 | imagenet2012 |     81.14     | [checkpoint](https://drive.google.com/file/d/1GingK9L_VcJynTCYMc3iMvCh4WG7ScBS/view?usp=sharing) |
-| imagenet21k | ViT-B_16 |   CIFAR100   |     92.41     | [checkpoint](https://drive.google.com/file/d/1YVLunKEGApaSKXZKewZz974gHt09Uwyf/view?usp=sharing) |
+| imagenet21k | ViT-B_16 |   CIFAR100   |     92.41     | [checkpoint] |
 
 
 ## Pruning Results
