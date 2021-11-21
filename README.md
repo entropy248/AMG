@@ -72,18 +72,18 @@ python src/finetune.py --exp-name vb16-CIFAR100-attn25-1-0-6 \
 |:------------|:---------|:-------------|--------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | imagenet21k | ViT-B_16 | imagenet2012 |     83.90     | [checkpoint](https://drive.google.com/file/d/1gEcyb4HUDzIvu7lQWTOyDC1X00YzCxFx/view?usp=sharing) |
 | imagenet21k | ViT-B_32 | imagenet2012 |     81.14     | [checkpoint](https://drive.google.com/file/d/1GingK9L_VcJynTCYMc3iMvCh4WG7ScBS/view?usp=sharing) |
-| imagenet21k | ViT-B_16 |   CIFAR100   |     92.41     | [checkpoint] |
+| imagenet21k | ViT-B_16 |   CIFAR100   |     92.41     | [checkpoint](https://drive.google.com/file/d/1dPUrjNBsRcHszxvN1QvVLP7eDmS7DdrP/view?usp=sharing) |
 
 
 ## Pruning Results
 
 | Method                 | model    | dataset      |   MSA param    |     FLOPS     |  acc          | model link    |
 |:-----------------------|:---------|:-------------|---------------:|--------------:|--------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  token 25%             | ViT-B_16 | CIFAR100     |     28.4M      |     48.4G     |  92.55        |               |
-|  head 25%              | ViT-B_16 | CIFAR100     |     21.3M      |     47.4G     |  92.00        |               |
-|  head 25% + token 25%  | ViT-B_16 | CIFAR100     |     21.3M      |     43.7G     |  91.53        |               |
-|  token 25%             | ViT-B_16 | ImageNet     |     28.4M      |     48.4G     |  84.29        |               |
-|  head 15% + token 25%  | ViT-B_32 | ImageNet     |     24.2M      |     10.6G     |  80.56        |               |
+|  token 25%             | ViT-B_16 | CIFAR100     |     28.4M      |     48.4G     |  92.55        |[checkpoint](https://drive.google.com/file/d/1i00wd6RAl6q0pTBFR0dJxIMQti5Wrvc3/view?usp=sharing)|
+|  head 25%              | ViT-B_16 | CIFAR100     |     21.3M      |     47.4G     |  92.00        |[checkpoint](https://drive.google.com/file/d/1Z84-4CYO7sqJW-pm26yXSyL-wWzMJ42E/view?usp=sharing)|
+|  head 25% + token 25%  | ViT-B_16 | CIFAR100     |     21.3M      |     43.7G     |  91.53        |[checkpoint](https://drive.google.com/file/d/1Q4LMEV_bgm-0z7yVS5ETbh28Q_WkUMsr/view?usp=sharing)|
+|  token 25%             | ViT-B_16 | ImageNet     |     28.4M      |     48.4G     |  84.29        |[checkpoint](https://drive.google.com/file/d/13jea4schnl8_rUehQWIHIgW9PYxMXQOB/view?usp=sharing)|
+|  head 15% + token 25%  | ViT-B_32 | ImageNet     |     24.2M      |     10.6G     |  80.56        |[checkpoint](https://drive.google.com/file/d/1wE4YV21mOOa1GITd2pDgZhTW81ZKbhlN/view?usp=sharing)|
 
 
 # Acknowledge
