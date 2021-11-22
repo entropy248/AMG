@@ -40,11 +40,11 @@ python python src/train.py --exp-name vb16-finetune  --tensorboard  --n-gpu=1 --
 # Evaluation for Pruned Models
 Make sure you have downloaded the pretrained weights either in '.npz' format or '.pth' format  
 
-evaluate the attn25-imagenet result
+Evaluate the attn25-imagenet result
 ```
 python src/eval.py --model-arch b16 --checkpoint-path [path/to/weight] --image-size 384 --batch-size 32 --data-dir data/ --dataset ImageNet --num-classes 1000
 ```
-evaluate the attn25-cifar result
+Evaluate the attn25-cifar result
 ```
 python src/eval.py --model-arch b16 --checkpoint-path [path/to/weight] --image-size 384 --batch-size 32 --data-dir data/ --dataset CIFAR100 --num-classes 100
 ```
