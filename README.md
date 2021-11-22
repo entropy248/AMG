@@ -4,6 +4,7 @@ ViT pruning method based on attention map information. Including token pruning a
 
 
 # Introduction
+![Figure 2 from paper](examples/figure1.png)
 
 We prune the attention heads and tokens for compression of ViT.
 Our pruning work are based on the [Pytorch implementation of Vision Transformer](https://github.com/asyml/vision-transformer-pytorch)
