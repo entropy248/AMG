@@ -68,7 +68,7 @@ def train_epoch_prune(iter, model, data_loader, criterion, optimizer, metrics,
         if batch_idx % 10 == 0:
             print("prune iter: {:03d} Batch: {:05d}/{:05d} Loss: {:.4f} Acc@1: {:.2f}, Acc@5: {:.2f}"
                   .format(iter, batch_idx, len(data_loader), loss.item(), acc1.item(), acc5.item()))
-            break
+        # break
     return metrics.result()
 
 
