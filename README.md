@@ -31,7 +31,7 @@ You can download the Market-1501 on [this](https://drive.google.com/drive/folder
 for the Imagefolder form. 
 
 You can download the extract list for Occluded-Duke from [here](https://github.com/lightas/Occluded-DukeMTMC-Dataset).
-We modify the [convert_duke_to_occduke.py]() for the form of Imagefolder dataloader. The usage is the same with the origin.
+We modify the [convert_duke_to_occduke.py](./convert_duke_to_occduke.py) for the form of Imagefolder dataloader. The usage is the same with the origin.
 
 The directory should be renamed like:
 ```
