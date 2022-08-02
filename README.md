@@ -9,7 +9,7 @@ We prune the attention heads and tokens for compression of the ViT backbone on M
 The baseline model used is [LA-Transformer](https://github.com/SiddhantKapil/LA-Transformer). We only add the pruning and fine-tuning module. The original training and testing code has no change. 
 
 # Pipeline
-![framework](examples/framework.png)
+![framework](example/figure1.png)
 
 
 # Installation
