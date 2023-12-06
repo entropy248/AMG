@@ -1,0 +1,1 @@
+from .vit_prune import prune
